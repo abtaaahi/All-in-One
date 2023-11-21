@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/one"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ALL IN ONE"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="130dp">
+    </TextView>
+    <Button
+        android:id="@+id/b_1"
+        android:text="Linear Form"
+        android:textSize="20sp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="50dp"
+        android:backgroundTint="#600909">
+    </Button>
+    <Button
+        android:id="@+id/b_2"
+        android:text="Constraint Form"
+        android:textSize="20sp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="50dp"
+        android:backgroundTint="#600909">
+    </Button>
+    <Button
+        android:id="@+id/b_3"
+        android:text="Product Price"
+        android:textSize="20sp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="50dp"
+        android:backgroundTint="#600909">
+    </Button>
+    <Button
+        android:id="@+id/b_4"
+        android:text="Credits"
+        android:textSize="20sp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="50dp"
+        android:backgroundTint="#600909">
+    </Button>
+</LinearLayout>
